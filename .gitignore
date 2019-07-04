@@ -6,3 +6,8 @@ node_modules
 
 # truffle build directory
 build
+
+# Coverage directory used by tools like istanbul
+coverage
+coverage.json
+coverageEnv
