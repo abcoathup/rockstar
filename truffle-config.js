@@ -87,10 +87,10 @@ module.exports = {
   },
 
   // Set default mocha options here, use special reporters etc.
-  mocha: {
-    reporter: 'eth-gas-reporter',
-    reporterOptions : { excludeContracts: ['Migrations'] }
-  },
+  // mocha: {
+  //   reporter: 'eth-gas-reporter',
+  //   reporterOptions : { excludeContracts: ['Migrations'] }
+  // },
 
   // Configure your compilers
   compilers: {
