@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "coverage": "solidity-coverage && cat coverage/lcov.info | coveralls",
+    "coverage": "npx truffle run coverage && cat coverage/lcov.info | coveralls",
     "lint": "npm run lint:js && npm run lint:sol",
     "lint:fix": "npm run lint:js:fix",
     "lint:js": "eslint .",
@@ -25,17 +25,17 @@
   "description": "",
   "dependencies": {},
   "devDependencies": {
-    "coveralls": "^3.0.4",
+    "coveralls": "^3.0.6",
     "eslint": "^4.19.1",
     "eslint-config-standard": "^10.2.1",
-    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-mocha-no-only": "^1.1.0",
     "eslint-plugin-node": "^5.2.1",
     "eslint-plugin-promise": "^3.8.0",
     "eslint-plugin-standard": "^3.1.0",
-    "eth-gas-reporter": "^0.2.6",
-    "solhint": "^2.1.1",
-    "solidity-coverage": "^0.6.0-beta.5",
-    "truffle": "^5.0.26"
+    "eth-gas-reporter": "^0.2.11",
+    "solhint": "^2.2.0",
+    "solidity-coverage": "^0.7.0-beta.0",
+    "truffle": "^5.0.35"
   }
 }
